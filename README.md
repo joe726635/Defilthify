@@ -1,2 +1,2 @@
 # Defilthify
-Movie / video profanity removal tool
+Movie/video profanity removal tool
