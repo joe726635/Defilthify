@@ -11,9 +11,7 @@ The program has additional capabilities via five different modes:
 
 The output is rendered in either MKV or MP4. If outputing to MP4 you have the choice of burned-in subtitles (automatic) or ‘soft subtitles’ (requires selection when playing). The audio output choices are ‘Copy’ (pass-through), AAC, and AC3. Furthermore, the channels are preserved, i.e., mono to mono, stereo to stereo, 5.1 to 5.1.
 
-![image](images/format1.PNG "Output formats")
-
-![image](images/audio1.PNG "Audio output")
+![image](images/format1.PNG "Output formats")&emsp;&emsp;![image](images/audio1.PNG "Audio output")
 
 The subtitles masking is rendered either ‘muted’ or ‘bleeped’. If ‘bleeped’ is chosen you also have the ability to select the frequency of the tone. Either way you can select the color of the subtitles or set it to systemt default.
 
