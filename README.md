@@ -11,7 +11,7 @@ The program has additional capabilities via five different modes:
 
 The output is rendered in either MKV or MP4. If outputing to MP4 you have the choice of burned-in subtitles (automatic) or ‘soft subtitles’ (requires selection when playing). The audio output choices are ‘Copy’ (pass-through), AAC, and AC3. Furthermore, the channels are preserved, i.e., mono to mono, stereo to stereo, 5.1 to 5.1.
 
-![image](images/format1.PNG "Output formats")&emsp;&emsp;![image](images/audio1.PNG "Audio output")
+![image](assets/format1.PNG "Output formats")&emsp;&emsp;![image](assets/audio1.PNG "Audio output")
 
 The subtitles masking is rendered either ‘muted’ or ‘bleeped’. If ‘bleeped’ is chosen you also have the ability to select the frequency of the tone. Either way you can select the color of the subtitles or set it to systemt default.
 
@@ -20,7 +20,7 @@ You may either input a video file or an audio file. If audio is chosen then a sm
 The interface of Defilthify is simple an intuitive, yet versatile enough that it allows control over the most common parameters.
 
 ### Modes
-![image](images/operations1.PNG "Operations")
+![image](assets/operations1.PNG "Operations")
 - *Full* :&emsp;This will perform the entire process of inputing a file, transcribing a speech-to-text narrative (subtitles), quickly evaluating whether at least one occurrence of objectionable language exists and if it does then a second (word-level) transcription is performed down to the millisecond to obtain the ‘masking’ timestamps. These timestamps are used to mute/bleep the audio. The word-level transcription is filtered with the profanity list and the words are masked with a string of asterisks (*) equal to the length of the word. The three components, video, audio, and subtitles (word-level transcription) are subsequently multiplexed back into an output product. Obviously if the aforementioned evaluation finds no profanity then the second time-consuming transcription is bypassed as well as the masking process. With this mode the user has the option of preserving the intermediate MP4 file for a future process. This file, which is normally not kept in an effort to minimize HDD usage, has a run timestamp appended which matches the masked narrative subtitles file.
 
 - *Apply ‘masked’ subtitles to ‘muted/bleeped’ video/audio* :&emsp;If the intermediate MP4 file mentioned in the Full process was preserved, then the user may at a later time re-merge this timestamp-matched subtitles file with the muted/bleeped MP4 after he/she optionally edits the subtitles.
@@ -34,15 +34,15 @@ The interface of Defilthify is simple an intuitive, yet versatile enough that it
 ### Miscellany
 <span style="color:red">*Mute/Bleep offsets*</span> are available in order to fine-tune the 'beginning' & 'end' of millisecond-precise timestamps. If the user finds that their computer is slower than desired, the beginning can be hastened and the end can be delayed to satisfactory results, thus widening the span. These settings are stored and remembered from session to session.
 
-![image](images/offsets1.PNG "Offsets")
+![image](assets/offsets1.PNG "Offsets")
 
 When a long operation is expected and the user has no desire to wait, or if it will run late into the night, a <span style="color:red">*When Done*</span> control is available to 'shutdown' the machine when finished. An abort button is also available to cancel the 'shutdown' within 30 seconds of issuing the command.
 
-![image](images/when_done.PNG "When Done")
+![image](assets/when_done.PNG "When Done")
 
 The <span style="color:red">*'Frames' & 'Duration'*</span> boxes are informational only. The are used internally in displaying the progress bar.
 
-![image](images/frames_duration.PNG "Frames & Duration")
+![image](assets/frames_duration.PNG "Frames & Duration")
 
 ### Static Settings
 Upon first run a quick setup must be made. This consists of selecting the locations of four worker programs executables (specified below) and the output folder of your choice. All five selections must be made before access to the ‘Main’ or ‘Selections’ screens is granted.
