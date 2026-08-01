@@ -50,7 +50,7 @@ When a long operation is expected and the user has no desire to wait, or if it w
 
 ![image](assets/when_done.PNG "When Done")
 
-The $\color{red}{'Frames'\ \&\ 'Duration'}$ boxes are informational only. The are used internally in displaying the progress bar.
+The $\color{red}{Frames\ \&\ Duration}$ boxes are informational only. The are used internally in displaying the progress bar.
 
 ![image](assets/frames_duration.PNG "Frames & Duration")
 
