@@ -7,9 +7,18 @@
 <meta name='keywords' content='profanity removal tool, audio cleanup, subtitles cleanup'>
   
 # Defilthify
-## Movie/video profanity removal tool
 
-Defilthify is a tool for removing profanity from movies, video, and audio files. It will create subtitles from the audio, remove the profanity from both the subtitles and the audio, and re-merge the three components back into an output file.
+Defilthify is a tool for removing profanity from movies, video, and audio files. 
+
+![version](https://img.shields.io/badge/version-1.0.26213.1631-blue)
+![Windows](https://shields.io/badge/platform-Windows-blue)
+
+## Features
+
+- Create subtitles from the audio
+- Remove the profanity from both the subtitles and the audio
+- Re-merge the three components back into an output file
+## Usage
 
 The program has additional capabilities via five different modes:  
 
