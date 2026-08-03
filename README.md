@@ -27,7 +27,7 @@ The subtitles masking is rendered either ‘muted’ or ‘bleeped’. If ‘ble
 
 You may either input a video file or an audio file. If audio is chosen then a small black screen is created and the subtitles are viewed on it. Transcription of audio files is useful for users who assimilate information better when reading while listening.
 
-The interface of Defilthify is simple an intuitive, yet versatile enough that it allows control over the most common parameters.
+The interface of Defilthify is simple and intuitive, yet versatile enough that it allows control over the most common parameters.
 
 ### Modes
 ![image](assets/operations1.PNG "Operations")
@@ -55,7 +55,7 @@ The $\color{red}{Frames}$ & $\color{red}{Duration}$ boxes are informational only
 ![image](assets/frames_duration.PNG "Frames & Duration")
 
 ### Static Settings
-Upon first run a quick setup must be made. This consists of selecting the locations of four worker programs executables (specified below) and the output folder of your choice. All five selections must be made before access to the ‘Main’ or ‘Selections’ screens is granted.
+Upon first run a quick setup must be made. This consists of selecting the locations of four worker program executables (specified below) and the output folder of your choice. All five selections must be made before access to the ‘Main’ or ‘Selections’ screens is granted.
 
 ### Background Worker Programs
 $\color{cyan}{ffmpeg.exe}$ :&emsp;A free, open-source progarm included in the **ffmpeg** software suite consisting of a command-line tool and libraries used to decode, encode, transcode, and stream audio and video. It handles virtually every media format ever created.
