@@ -7,9 +7,29 @@
 <meta name='keywords' content='profanity removal tool, audio cleanup, subtitles cleanup'>
   
 # Defilthify
-## Movie/video profanity removal tool
 
-Defilthify is a tool for removing profanity from movies, video, and audio files. It will create subtitles from the audio, remove the profanity from both the subtitles and the audio, and re-merge the three components back into an output file.
+Defilthify is a tool for removing profanity from movies, video, and audio files. 
+
+![version](https://img.shields.io/badge/version-1.0.26213.1631-blue)
+![Windows](https://shields.io/badge/platform-Windows-blue)
+
+## Features
+
+- Create subtitles from the audio
+- Remove the profanity from both the subtitles and the audio
+- Re-merge the three components back into an output file
+
+## Install
+
+1. Download and decompress Defilthify.
+2. Download and decompress [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/tag/latest).
+3. Download and decompress [faster-whisper-xxl](https://github.com/Purfview/whisper-standalone-win/releases/download/Faster-Whisper-XXL/Faster-Whisper-XXL_r245.4_windows.7z).
+4. Download and decompress [mkvmerge](https://mkvtoolnix.download/downloads.html#windows).
+5. Run Defilthify.
+6. Navigate to the *Static Settings* tab.
+7. Set the absolute paths to each of the downloaded dependencies.
+
+## Usage
 
 The program has additional capabilities via five different modes:  
 
@@ -27,11 +47,11 @@ The subtitles masking is rendered either ‘muted’ or ‘bleeped’. If ‘ble
 
 You may either input a video file or an audio file. If audio is chosen then a small black screen is created and the subtitles are viewed on it. Transcription of audio files is useful for users who assimilate information better when reading while listening.
 
-The interface of Defilthify is simple an intuitive, yet versatile enough that it allows control over the most common parameters.
+The interface of Defilthify is simple and intuitive, yet versatile enough that it allows control over the most common parameters.
 
 ### Modes
 ![image](assets/operations1.PNG "Operations")
-- ***Full*** :&emsp;This will perform the entire process of inputing a file, transcribing a speech-to-text narrative (subtitles), quickly evaluating whether at least one occurrence of objectionable language exists and if it does then a second (word-level) transcription is performed down to the millisecond to obtain the ‘masking’ timestamps. These timestamps are used to mute/bleep the audio. The word-level transcription is filtered with the profanity list and the words are masked with a string of asterisks (*) equal to the length of the word. The three components, video, audio, and subtitles (word-level transcription) are subsequently multiplexed back into an output product. Obviously if the aforementioned evaluation finds no profanity then the second time-consuming transcription is bypassed as well as the masking process. With this mode the user has the option of preserving the intermediate MP4 file for a future process. This file, which is normally not kept in an effort to minimize HDD usage, has a run timestamp appended which matches the masked narrative subtitles file.
+- ***Full*** :&emsp;This will perform the entire process of inputting a file, transcribing a speech-to-text narrative (subtitles), quickly evaluating whether at least one occurrence of objectionable language exists and if it does then a second (word-level) transcription is performed down to the millisecond to obtain the ‘masking’ timestamps. These timestamps are used to mute/bleep the audio. The word-level transcription is filtered with the profanity list and the words are masked with a string of asterisks (*) equal to the length of the word. The three components, video, audio, and subtitles (word-level transcription) are subsequently multiplexed back into an output product. Obviously if the aforementioned evaluation finds no profanity then the second time-consuming transcription is bypassed as well as the masking process. With this mode the user has the option of preserving the intermediate MP4 file for a future process. This file, which is normally not kept in an effort to minimize HDD usage, has a run timestamp appended which matches the masked narrative subtitles file.
 
 - ***Apply ‘masked’ subtitles to ‘muted/bleeped’ video/audio*** :&emsp;If the intermediate MP4 file mentioned in the Full process was preserved, then the user may at a later time re-merge this timestamp-matched subtitles file with the muted/bleeped MP4 after he/she optionally edits the subtitles.
 
@@ -55,7 +75,7 @@ The $\color{red}{Frames}$ & $\color{red}{Duration}$ boxes are informational only
 ![image](assets/frames_duration.PNG "Frames & Duration")
 
 ### Static Settings
-Upon first run a quick setup must be made. This consists of selecting the locations of four worker programs executables (specified below) and the output folder of your choice. All five selections must be made before access to the ‘Main’ or ‘Selections’ screens is granted.
+Upon first run a quick setup must be made. This consists of selecting the locations of four worker program executables (specified below) and the output folder of your choice. All five selections must be made before access to the ‘Main’ or ‘Selections’ screens is granted.
 
 ### Background Worker Programs
 $\color{cyan}{ffmpeg.exe}$ :&emsp;A free, open-source progarm included in the **ffmpeg** software suite consisting of a command-line tool and libraries used to decode, encode, transcode, and stream audio and video. It handles virtually every media format ever created.
