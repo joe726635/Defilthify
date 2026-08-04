@@ -36,7 +36,7 @@ You may either input a video file or an audio file. If audio is chosen then a sm
 The interface of Defilthify is simple and intuitive, yet versatile enough that it allows control over the most common parameters.
 
 ## Installation
-- See $\color{cyan}{Background Worker Programs}$ below
+- *See Background Worker Programs below*
 
 1. Download and decompress Defilthify.
 2. Download and decompress [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/tag/latest).
