@@ -77,15 +77,15 @@ Upon first run a quick setup must be made. This consists of selecting the locati
 ### Background Worker Programs
 $\color{cyan}{ffmpeg.exe}$ :&emsp;A free, open-source progarm included in the **ffmpeg** software suite consisting of a command-line tool and libraries used to decode, encode, transcode, and stream audio and video. It handles virtually every media format ever created.
 
-$\color{cyan}{ffprobe.exe}$</span> :&emsp;A companion tool included in **ffmpeg** used to analyze and view technical metadata of media files (such as codecs, resolutions, bitrates, frames, and duration).
+$\color{cyan}{ffprobe.exe}$ :&emsp;A companion tool included in **ffmpeg** used to analyze and view technical metadata of media files (such as codecs, resolutions, bitrates, frames, and duration).
 
 $\color{cyan}{faster-whisper-xxl.exe}$ :&emsp;An optimized, standalone speech-to-text engine that packages voice activity detection, audio preprocessing, and speaker diarization into a single plug-and-play package. **faster-whisper-xxl** was written by GitHub user known as **Purfview** and built on top of machine learning engineer Guillaume Klein’s **faster-whisper**.&emsp;**faster-whisper-xxl** is designed for users who want to avoid Python installation.
 
-$\color{cyan}{mkvmerge.exe}$</span> :&emsp;A command-line tool used to create, join, split, or inspect Matroska (.mkv, .mka, .mks) files by combining audio, video, and subtitle streams without re-encoding. It is a core component of and included in the **MKVToolNix** software package.
+$\color{cyan}{mkvmerge.exe}$ :&emsp;A command-line tool used to create, join, split, or inspect Matroska (.mkv, .mka, .mks) files by combining audio, video, and subtitle streams without re-encoding. It is a core component of and included in the **MKVToolNix** software package.
 
 ### Downloading Background Worker Programs
 
-$\color{cyan}{ffmpeg.exe}$</span> and $\color{cyan}{ffprobe.exe}$</span> :
+$\color{cyan}{ffmpeg.exe}$ and $\color{cyan}{ffprobe.exe}$ :
 
 Check; you may already have it somewhere in your computer. If not then read on: FFmpeg is available in portable version (no installation required). Go to the official [ffmpeg.org download page](https://ffmpeg.org/download.html), hover over the Windows icon, and select a trusted Windows build provider like Gyan Duggirala's builds or the BtbN GitHub builds. Locate and download the latest build, and unarchive and place anywhere you want. Try not to choose "Program Files" or "Program Files (x86)" to avoid security issues. You may opt to create a "ProgramFilesPortable" folder and place it there, as I did.
 
@@ -95,7 +95,7 @@ $\color{cyan}{faster-whisper-xxl.exe}$ :
 2.	Click on whisper-standalone-win [https://github.com/Purfview/whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win).
 3.	Click on Releases on right side [https://github.com/Purfview/whisper-standalone-win/releases](https://github.com/Purfview/whisper-standalone-win/releases).
 4.	Find the large heading "Faster-Whisper-XXL r245.4" and click it [https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL](https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL).
-5.	Scroll down to "Assets" at the bottom and download "<span style="color:#6ea0e7">**Faster-Whisper-XXL_r245.4_windows.7z**</span>".
+5.	Scroll down to "Assets" at the bottom and download "**Faster-Whisper-XXL_r245.4_windows.7z**".
 6.	Unarchive the file and place anywhere you want.
 7.	Automatic model download :&emsp;The appropriate model will be downloaded automatically upon the first run. Just ensure you have an internet connection the first time you run Defilthify.
 
