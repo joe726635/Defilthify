@@ -18,6 +18,17 @@ Defilthify is a tool for removing profanity from movies, video, and audio files.
 - Create subtitles from the audio
 - Remove the profanity from both the subtitles and the audio
 - Re-merge the three components back into an output file
+
+## Install
+
+1. Download and decompress Defilthify.
+2. Download and decompress [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/tag/latest).
+3. Download and decompress [faster-whisper-xxl](https://github.com/Purfview/whisper-standalone-win/releases/download/Faster-Whisper-XXL/Faster-Whisper-XXL_r245.4_windows.7z).
+4. Download and decompress [mkvmerge](https://mkvtoolnix.download/downloads.html#windows).
+5. Run Defilthify.
+6. Navigate to the *Static Settings* tab.
+7. Set the absolute paths to each of the downloaded dependencies.
+
 ## Usage
 
 The program has additional capabilities via five different modes:  
