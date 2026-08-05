@@ -11,6 +11,8 @@
 
 Defilthify is a tool for removing profanity from movies, video, and audio files.
 
+## *No need for Adobe Premiere, Final Cut, DaVinci Resolve, Avid, or any other NLE.*
+
 ## Features
 
 - Create subtitles from the audio
