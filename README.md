@@ -41,9 +41,9 @@ The interface of Defilthify is simple and intuitive, yet versatile enough that i
 - *See Background Worker Programs below*
 
 1. Download and decompress Defilthify.
-2. Download and decompress [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/tag/latest).
-3. Download and decompress [faster-whisper-xxl](https://github.com/Purfview/whisper-standalone-win/releases/download/Faster-Whisper-XXL/Faster-Whisper-XXL_r245.4_windows.7z).
-4. Download and decompress [mkvmerge](https://mkvtoolnix.download/downloads.html#windows).
+2. Download and decompress $\color{#3485e3}{ffmpeg}$ as per below.
+3. Download and decompress $\color{#3485e3}{faster-whisper-xxl}$ as per below.
+4. Download and decompress $\color{#3485e3}{mkvmerge}$ as per below.
 5. Run Defilthify.
 6. Navigate to the *Static Settings* tab.
 7. Set the absolute paths to each of the downloaded dependencies.
