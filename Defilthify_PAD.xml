@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+  </MASTER_PAD_VERSION_INFO>
+
+  <Company_Info>
+    <Company_Name>Joe Rodriguez (private developer)</Company_Name>
+    <Company_WebSite_URL>https://github.com/joe726635/defilthify</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_Email>Defilthify.Mk715@gmail.com</Contact_Email>
+    </Contact_Info>
+  </Company_Info>
+
+  <Author_Info>
+    <Author_Name>Joe Rodriguez</Author_Name>
+    <Author_Email>Defilthify.Mk715@gmail.com</Author_Email>
+  </Author_Info>
+
+  <Program_Info>
+    <Program_Name>Defilthify</Program_Name>
+    <Program_Version>1.0.26242.2315</Program_Version>
+    <Program_Release_Month>08</Program_Release_Month>
+    <Program_Release_Day>30</Program_Release_Day>
+    <Program_Release_Year>2026</Program_Release_Year>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Category_Class>Audio &amp; Multimedia::Video Tools</Program_Category_Class>
+    <Program_OS_Support>Windows 10</Program_OS_Support>
+    <Program_Sizes_KB>603</Program_Sizes_KB>
+    <Program_Sizes_MB>.603</Program_Sizes_MB>
+  </Program_Info>
+
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://github.com/joe726635/defilthify</Application_Info_URL>
+      <Application_Screenshot_URL>https://github.com/joe726635/Defilthify/blob/main/screenshot.jpg</Application_Screenshot_URL>
+      <Application_Icon_URL>https://github.com/joe726635/Defilthify/blob/main/icon.ico</Application_Icon_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>https://github.com/joe726635/Defilthify/blob/main/build/Defilthify-x64-Win-v1.0.26242.2315.zip</Primary_Download_URL>
+    </Download_URLs>
+  </Web_Info>
+
+  <Program_Descriptions>
+    <English>
+      <Keywords>Audio &amp; Multimedia, Video Tools, profanity removal</Keywords>
+      <Char_Desc_450>
+Defilthify is a tool for removing profanity from movies, video, and audio files.
+It creates subtitles from the audio of a video file or an audio file, removes the profanity from both the subtitles and the audio, replacing it with either silence (mute) or tone (bleep), and re-merges the three components (video, audio, &amp; subtitles) back into an output file.
+There is no need for Adobe Premiere, Final Cut, DaVinci Resolve, Avid, or any other NLE.
+</Char_Desc_450>
+    </English>
+  </Program_Descriptions>
+</XML_DIZ_INFO>
